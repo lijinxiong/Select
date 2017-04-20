@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.select.MainActivity">
+
+    <Button
+        android:id="@+id/my_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_state_enable"
+        android:enabled="false"
+        android:text="state_enable"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="state_pressed"
+        android:background="@drawable/selector_state_pressed"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="state_focused"
+        android:selectAllOnFocus="false"
+        android:background="@drawable/selector_state_focused"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="state_focused"
+        android:selectAllOnFocus="false"
+        android:background="@drawable/selector_state_focused"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="checked"
+        android:background="@drawable/selector_state_checked"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="state_window_focused"
+        android:background="@drawable/selector_state_window_focused"
+        />
+</LinearLayout>

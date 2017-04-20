@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="5000"
+          android:exitFadeDuration="5000"
+    >
+
+    <!--如果当应用窗口有焦点（应用在前台）时应使用此项目，则值为“true”；
+    如果当应用窗口没有焦点（例如，通知栏下拉或对话框出现）时应使用此项目，则值为“false”。-->
+    <item android:drawable="@color/colorAccent"
+          android:state_window_focused="true"/>
+    <item android:drawable="@color/colorPrimaryDark"
+          android:state_window_focused="false"/>
+
+
+</selector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--this.findViewById(R.id.my_btn).setEnabled(boolean);-->
+    <!--android:enabled="false"-->
+    <!--代表这个view是否能够消费掉点击事件，false就是不能，true反之-->
+    <item android:drawable="@android:color/holo_blue_dark"
+          android:state_enabled="false"/>
+    <item android:drawable="@android:color/holo_orange_dark"
+          android:state_enabled="true"
+        />
+</selector>

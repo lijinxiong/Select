@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--这个貌似不好用的赶脚-->
+    <item android:drawable="@color/colorPrimary"
+          android:state_hovered="true"/>
+    <item android:drawable="@color/colorAccent"
+          android:state_hovered="false"/>
+</selector>
